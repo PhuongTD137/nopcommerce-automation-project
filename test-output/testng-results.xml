@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-30T08:47:27Z" name="Nopcommerce" finished-at="2024-09-30T08:47:40Z" duration-ms="13478">
+    <groups>
+    </groups>
+    <test started-at="2024-09-30T08:47:27Z" name="Run on Firefox" finished-at="2024-09-30T08:47:40Z" duration-ms="13478">
+      <class name="nopcommerce.user.MyAccount">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nopcommerce.user.MyAccount@25641d39]" started-at="2024-09-30T08:47:27Z" name="beforeClass" finished-at="2024-09-30T08:47:35Z" duration-ms="8341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Update_Customer_Info(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.MyAccount@25641d39]" started-at="2024-09-30T08:47:35Z" name="TC_01_Update_Customer_Info" finished-at="2024-09-30T08:47:37Z" duration-ms="2034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.MyAccount.TC_01_Update_Customer_Info(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Update_Customer_Info -->
+      </class> <!-- nopcommerce.user.MyAccount -->
+      <class name="nopcommerce.user.Login">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:27Z" name="beforeClass" finished-at="2024-09-30T08:47:36Z" duration-ms="9037" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC_01_Empty_Data(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:36Z" name="TC_01_Empty_Data" finished-at="2024-09-30T08:47:37Z" duration-ms="744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.Login.TC_01_Empty_Data(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_Empty_Data -->
+        <test-method signature="TC_02_Invalid_Email(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:37Z" name="TC_02_Invalid_Email" finished-at="2024-09-30T08:47:37Z" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.Login.TC_02_Invalid_Email(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_Invalid_Email -->
+        <test-method signature="TC_03_Unregistered_Email(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:37Z" name="TC_03_Unregistered_Email" finished-at="2024-09-30T08:47:38Z" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.Login.TC_03_Unregistered_Email(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Unregistered_Email -->
+        <test-method signature="TC_04_Not_Input_Password(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:38Z" name="TC_04_Not_Input_Password" finished-at="2024-09-30T08:47:39Z" duration-ms="713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.Login.TC_04_Not_Input_Password(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Not_Input_Password -->
+        <test-method signature="TC_05_Wrong_Password(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:39Z" name="TC_05_Wrong_Password" finished-at="2024-09-30T08:47:39Z" duration-ms="604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.Login.TC_05_Wrong_Password(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Wrong_Password -->
+        <test-method signature="TC_06_Success_Login(java.lang.reflect.Method)[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:39Z" name="TC_06_Success_Login" finished-at="2024-09-30T08:47:40Z" duration-ms="773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void nopcommerce.user.Login.TC_06_Success_Login(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_Success_Login -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:nopcommerce.user.Login@4a883b15]" started-at="2024-09-30T08:47:40Z" name="afterClass" finished-at="2024-09-30T08:47:40Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- nopcommerce.user.Login -->
+    </test> <!-- Run on Firefox -->
+  </suite> <!-- Nopcommerce -->
+</testng-results>
